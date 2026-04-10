@@ -211,14 +211,10 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
   </div>
 </nav>
 <main>
-```html
-<main>
   <div class="hero-mini">
     <div class="container">
-      <div class="hero-content">
-        <h1>Ovacık Su Bayii</h1>
-        <p>1999'dan beri temiz suyun güvenilir adresi.</p>
-      </div>
+      <h2>Buzdelen - Güvenilir Su Bayii</h2>
+      <p>1999'dan beri temiz suyun güvenilir adresi</p>
     </div>
   </div>
 
@@ -232,67 +228,56 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
           </div>
           <div class="form-group">
             <label class="form-label">Telefon</label>
-            <input class="form-control" type="tel" placeholder="05XX XXX XX XX">
+            <input class="form-control" type="tel" placeholder="Telefon numaranızı girin">
           </div>
           <div class="form-group">
             <label class="form-label">Adres</label>
-            <input class="form-control" type="text" placeholder="Adresinizi girin">
+            <input class="form-control" type="text" placeholder="Teslimat adresinizi girin">
           </div>
           <div class="form-group">
-            <label class="form-label">Damacana Adet</label>
-            <input class="form-control" type="number" min="1" placeholder="Adet girin">
+            <label class="form-label">Damacana Adedi</label>
+            <input class="form-control" type="number" placeholder="Kaç adet damacana">
           </div>
           <div class="form-group">
             <label class="form-label">Teslimat Sıklığı</label>
-            <select class="form-control">
-              <option>Günlük</option>
-              <option>Haftalık</option>
-              <option>Aylık</option>
-            </select>
+            <input class="form-control" type="text" placeholder="Teslimat sıklığı (günlük, haftalık vb.)">
           </div>
           <div class="form-group">
             <label class="form-label">Not</label>
-            <textarea class="form-control" placeholder="Ekstra notlarınız"></textarea>
+            <textarea class="form-control" placeholder="Eklemek istediğiniz notlar"></textarea>
           </div>
-          <div class="btn-group">
-            <a href="#" class="btn btn-primary btn-lg">Sipariş Ver</a>
-          </div>
+          <button type="submit" class="btn btn-primary">Sipariş Ver</button>
         </form>
       </div>
-
+      
       <div>
         <div class="map-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12040.0!2d28.979530!3d41.015137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1str!2str!4v0" allowfullscreen loading="lazy"></iframe>
         </div>
         <div class="info-card">
-          <div class="info-label">Adres:</div>
+          <div class="info-icon"><i class="fa fa-location-dot"></i></div>
+          <div class="info-label">Adres</div>
           <div class="info-value">Karayolları, 630. Sk. No:2 D:2 dükkan, 34255 Gaziosmanpaşa/İstanbul</div>
         </div>
         <div class="info-card">
-          <div class="info-label">Telefon:</div>
-          <div class="info-value"><a href="tel:+902126180711" style="font-size: 1.5em;">(0212) 618 07 11</a></div>
+          <div class="info-icon"><i class="fa fa-phone"></i></div>
+          <div class="info-label">Telefon</div>
+          <div class="info-value"><a href="tel:02126180711">(0212) 618 07 11</a></div>
         </div>
         <div class="info-card">
-          <div class="info-label">Çalışma Saatleri:</div>
-          <table class="table-clean">
-            <tr>
-              <td>Pazartesi-Cumartesi</td>
-              <td>09:00-19:30</td>
-            </tr>
-            <tr>
-              <td>Pazar</td>
-              <td>Kapalı</td>
-            </tr>
-          </table>
+          <div class="info-icon"><i class="fa fa-clock"></i></div>
+          <div class="info-label">Çalışma Saatleri</div>
+          <div class="info-value">
+            <table class="table-clean">
+              <tr><td>Pazartesi-Cumartesi:</td><td>09:00-19:30</td></tr>
+              <tr><td>Pazar:</td><td>Kapalı</td></tr>
+            </table>
+          </div>
         </div>
-        <div class="btn-group">
-          <a href="https://wa.me/902126180711" class="btn btn-lg" style="background-color:#25D366;color:#fff;">WhatsApp ile İletişime Geç</a>
-        </div>
+        <a href="https://wa.me/902126180711" class="btn btn-secondary btn-lg" style="background-color: var(--p); color: #fff;">WhatsApp ile İletişime Geç</a>
       </div>
     </div>
   </div>
-</main>
-```
 </main>
 <footer class="footer">
   <div class="container">
