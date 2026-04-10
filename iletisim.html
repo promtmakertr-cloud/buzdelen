@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>İletişim — Buzdelen</title>
   <meta name="description" content="Buzdelen - İletişim sayfası. Türkiye'nin en iyi i̇letişim deneyimi için bizi tercih edin.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap');
 :root{--p:#1565C0;--s:#42A5F5;--bg:#F0F7FF;--tx:#0D1B2A;--card:#FFFFFF;--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -213,8 +214,10 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
 <main>
   <div class="hero-mini">
     <div class="container">
-      <h1>Buzdelen Su Bayii İletişim</h1>
-      <p>1999'dan beri temiz suyun güvenilir adresi</p>
+      <div class="hero-content">
+        <h1>Buzdelen Su Bayii - Gaziosmanpaşa & Sultangazi</h1>
+        <p>1999'dan beri temiz suyun güvenilir adresi. Damacana su satışı, eve ve kurumsal teslimat hizmeti sunuyoruz.</p>
+      </div>
     </div>
   </div>
 
@@ -224,61 +227,57 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
         <form>
           <div class="form-group">
             <label class="form-label">Adınız</label>
-            <input class="form-control" type="text" placeholder="Adınız">
+            <input class="form-control" type="text" placeholder="Adınızı girin">
           </div>
           <div class="form-group">
             <label class="form-label">Telefon</label>
-            <input class="form-control" type="tel" placeholder="Telefon Numaranız">
+            <input class="form-control" type="tel" placeholder="Telefon numaranızı girin">
           </div>
           <div class="form-group">
             <label class="form-label">Adres</label>
-            <input class="form-control" type="text" placeholder="Teslimat Adresi">
+            <input class="form-control" type="text" placeholder="Teslimat adresinizi girin">
           </div>
           <div class="form-group">
             <label class="form-label">Damacana Adedi</label>
-            <input class="form-control" type="number" placeholder="Adet">
+            <input class="form-control" type="number" placeholder="Adet girin">
           </div>
           <div class="form-group">
             <label class="form-label">Teslimat Sıklığı</label>
-            <input class="form-control" type="text" placeholder="Örn: Haftada 1">
+            <input class="form-control" type="text" placeholder="Örn: Haftalık">
           </div>
           <div class="form-group">
             <label class="form-label">Not</label>
-            <textarea class="form-control" placeholder="Eklemek istediğiniz notlar"></textarea>
+            <textarea class="form-control" placeholder="Eklemek istediğiniz not"></textarea>
           </div>
           <button class="btn btn-primary">Sipariş Ver</button>
         </form>
       </div>
-
       <div>
         <div class="map-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12040.0!2d28.979530!3d41.015137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1str!2str!4v0" allowfullscreen loading="lazy"></iframe>
         </div>
         <div class="info-card">
-          <div class="info-icon"><i class="fa fa-location-dot"></i></div>
-          <div class="info-label">Adres</div>
+          <div class="info-icon"><i class="fas fa-location-dot"></i></div>
           <div class="info-value">Karayolları, 630. Sk. No:2 D:2 dükkan, 34255 Gaziosmanpaşa/İstanbul</div>
         </div>
         <div class="info-card">
-          <div class="info-icon"><i class="fa fa-phone"></i></div>
-          <div class="info-label">Telefon</div>
-          <div class="info-value"><a href="tel:+902126180711" style="font-size: 1.5em;">(0212) 618 07 11</a></div>
+          <div class="info-icon"><i class="fas fa-phone"></i></div>
+          <div class="info-value"><a href="tel:+902126180711">(0212) 618 07 11</a></div>
         </div>
-        <div class="info-card">
-          <div class="info-icon"><i class="fa fa-clock"></i></div>
-          <div class="info-label">Çalışma Saatleri</div>
-          <table class="table-clean">
-            <tr>
-              <td>Pazartesi-Cumartesi</td>
-              <td>09:00-19:30</td>
-            </tr>
-            <tr>
-              <td>Pazar</td>
-              <td>Kapalı</td>
-            </tr>
-          </table>
-        </div>
-        <a href="https://wa.me/902126180711" class="btn btn-primary btn-lg" style="background-color: #25d366;">WhatsApp ile İletişim</a>
+        <table class="table-clean">
+          <tr>
+            <th>Çalışma Saatleri</th>
+          </tr>
+          <tr>
+            <td>Pazartesi-Cumartesi</td>
+            <td>09:00 - 19:30</td>
+          </tr>
+          <tr>
+            <td>Pazar</td>
+            <td>Kapalı</td>
+          </tr>
+        </table>
+        <a href="https://wa.me/902126180711" class="btn btn-success btn-lg">WhatsApp ile İletişime Geç</a>
       </div>
     </div>
   </div>
@@ -301,9 +300,8 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
       <div>
         <div class="footer-heading">İletişim</div>
         <nav class="footer-nav">
-          <a href="tel:+902121234567">📞 +90 (212) 123 45 67</a>
-          <a href="mailto:info@Buzdelen.com">✉️ info@Buzdelen.com</a>
-          <a href="iletisim.html">📍 İstanbul, Türkiye</a>
+          <a href="tel:+902126180711"><i class="fa-solid fa-phone"></i> (0212) 618 07 11</a>
+          <a href="iletisim.html"><i class="fa-solid fa-location-dot"></i> Karayolları, 630. Sk. No:2 D:2 dükkan</a>
         </nav>
       </div>
     </div>
@@ -313,7 +311,7 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
     </div>
   </div>
 </footer>
-<a href="https://wa.me/905001234567" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp ile iletişim">
+<a href="https://wa.me/902126180711" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="WhatsApp ile iletişim">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.524 5.853L.072 23.928l6.208-1.438A11.942 11.942 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.881 0-3.648-.51-5.168-1.4l-.369-.219-3.684.852.886-3.607-.243-.38A9.936 9.936 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
 </a>
 <script>
