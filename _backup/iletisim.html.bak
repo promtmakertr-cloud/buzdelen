@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <!-- SEO Agent tarafından enjekte edildi -->
-  <title>Buzdelen Su Bayii - Eve Teslimat | Gaziosmanpaşa</title>
-  <meta name="description" content="Buzdelen su bayii olarak 1999'dan beri Gaziosmanpaşa'da damacana su satışı ve eve teslimat hizmeti. Hijyenik su, hızlı teslimat, uygun fiyat. Sipariş: (0212) 618 07 11">
-  <meta name="keywords" content="buzdelen su, damacana su, gaziosmanpaşa su bayii, eve su teslimat, kurumsal su teslimat">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="canonical" href="">
-  <!-- Open Graph -->
-  <meta property="og:title" content="Buzdelen Su Bayii - Gaziosmanpaşa Eve Teslimat">
-  <meta property="og:description" content="1999'dan beri Gaziosmanpaşa'da güvenilir su hizmeti. Damacana su satışı, eve teslimat, kurumsal çözümler. Hijyenik ürünler, hızlı teslimat, 7/24 destek.">
-  <meta property="og:image" content="/og-image.jpg">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="tr_TR">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
+  <title>İletişim — Ovacık Su Bayii (Buzdelen)</title>
+  <meta name="description" content="Ovacık Su Bayii (Buzdelen) - İletişim sayfası. Türkiye'nin en iyi i̇letişim deneyimi için bizi tercih edin.">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap');
 :root{--p:#1565C0;--s:#42A5F5;--bg:#F0F7FF;--tx:#0D1B2A;--card:#FFFFFF;--fh:'Poppins',sans-serif;--fb:'Inter',sans-serif;--r:12px;--sh:0 4px 24px rgba(0,0,0,0.08);--t:all .3s ease;--mw:1200px}
@@ -212,115 +200,81 @@ select.form-control{cursor:pointer}textarea.form-control{resize:vertical;min-hei
 <body>
 <nav class="navbar" id="navbar">
   <div class="container nav-container">
-    <a href="index.html" class="nav-brand"><img src="assets/logo.jpg" alt="Logo" style="height:50px;max-width:180px;object-fit:contain;"></a>
+    <a href="index.html" class="nav-brand">Ovacık Su Bayii (Buzdelen)</a>
     <button class="hamburger" id="hamburger" aria-label="Menü">
       <span></span><span></span><span></span>
     </button>
     <div class="nav-menu" id="navMenu">
-      <a href="index.html" class="nav-link active">Ana Sayfa</a>
+      <a href="index.html" class="nav-link">Ana Sayfa</a>
       <a href="hizmetler.html" class="nav-link">Hizmetler</a>
-      <a href="iletisim.html" class="nav-link">İletişim</a>
+      <a href="iletisim.html" class="nav-link active">İletişim</a>
     </div>
   </div>
 </nav>
 <main>
-  <div class="hero">
-    <div class="hero-bg" style="background-image:url('https://images.pexels.com/photos/35345085/pexels-photo-35345085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-    <div class="hero-overlay"></div>
+  <div class="hero-mini">
     <div class="container">
       <div class="hero-content">
-        <h1>Ovacık Su Bayii (Buzdelen)</h1>
-        <p>1999'dan beri temiz suyun güvenilir adresi. Damacana su satışı, eve teslimat ve kurumsal teslimat hizmetlerimizle Gaziosmanpaşa'da hizmetinizdeyiz.</p>
-        <div class="btn-group">
-          <a href="#" class="btn btn-white btn-lg">Sipariş Ver</a>
-          <a href="iletisim.html" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.7)">İletişim</a>
-        </div>
+        <h1>Ovacık Su Bayii (Buzdelen) ile Temiz Suya Ulaşın</h1>
+        <p>1999'dan beri temiz suyun güvenilir adresi. Gaziosmanpaşa ve Sultangazi bölgelerine hızlı teslimat.</p>
       </div>
     </div>
   </div>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Hizmetlerimiz</h2>
-      </div>
-      <div class="grid-3">
-        <div class="card">
-          <div class="card-img" style="background-image:url('https://images.pexels.com/photos/7363099/pexels-photo-7363099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-          <div class="card-body">
-            <h3 class="card-title">Eve Teslimat</h3>
-            <p class="card-text">Evlerinize hızlı ve güvenilir su teslimatı yapıyoruz. Siparişleriniz en kısa sürede kapınızda.</p>
+  <div class="section">
+    <div class="container grid-2">
+      <div>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label class="form-label">Adınız</label>
+            <input class="form-control" type="text" placeholder="Adınızı girin">
           </div>
-        </div>
-        <div class="card">
-          <div class="card-img" style="background-image:url('https://images.pexels.com/photos/7363098/pexels-photo-7363098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-          <div class="card-body">
-            <h3 class="card-title">Kurumsal Teslimat</h3>
-            <p class="card-text">Hastane, okul ve iş yerlerine toplu su teslimatı hizmeti sunmaktayız. Kurumsal çözümler için bizimle iletişime geçin.</p>
+          <div class="form-group">
+            <label class="form-label">Telefon</label>
+            <input class="form-control" type="tel" placeholder="Telefon numaranızı girin">
           </div>
-        </div>
-        <div class="card">
-          <div class="card-img" style="background-image:url('https://images.pexels.com/photos/6407578/pexels-photo-6407578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')"></div>
-          <div class="card-body">
-            <h3 class="card-title">Damacana Satışı</h3>
-            <p class="card-text">Temiz ve hijyenik damacana su satışlarımızla sağlığınızı önemsiyoruz. Güvenilir marka Buzdelen suyu tercih edin.</p>
+          <div class="form-group">
+            <label class="form-label">Adres</label>
+            <input class="form-control" type="text" placeholder="Teslimat adresinizi girin">
           </div>
+          <div class="form-group">
+            <label class="form-label">Damacana Adet</label>
+            <input class="form-control" type="number" placeholder="İstediğiniz adet">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Teslimat Sıklığı</label>
+            <input class="form-control" type="text" placeholder="Örn: Haftalık">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Not</label>
+            <textarea class="form-control" rows="4" placeholder="Eklemek istediğiniz notlar"></textarea>
+          </div>
+          <button class="btn btn-primary btn-lg">Sipariş Ver</button>
+        </form>
+      </div>
+      <div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12040.0!2d28.979530!3d41.015137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1str!2str!4v0" allowfullscreen loading="lazy"></iframe>
         </div>
+        <div class="info-card">
+          <div class="info-icon"><i class="fa fa-location-dot"></i></div>
+          <div class="info-label">Adres</div>
+          <div class="info-value">Karayolları, 630. Sk. No:2 D:2 dükkan, 34255 Gaziosmanpaşa/İstanbul</div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><i class="fa fa-phone"></i></div>
+          <div class="info-label">Telefon</div>
+          <div class="info-value"><a href="tel:+902126180711" class="btn btn-white btn-lg">(0212) 618 07 11</a></div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><i class="fa fa-clock"></i></div>
+          <div class="info-label">Çalışma Saatleri</div>
+          <div class="info-value">Pazartesi-Cumartesi 09:00-19:30, Pazar kapalı</div>
+        </div>
+        <a href="https://wa.me/902126180711" class="btn btn-outline btn-lg" style="color:#25D366;border-color:#25D366"><i class="fa fa-whatsapp"></i> WhatsApp ile İletişime Geçin</a>
       </div>
     </div>
-  </section>
-
-  <section class="section-light">
-    <div class="container">
-      <div class="grid-2">
-        <div>
-          <h3>Hakkımızda</h3>
-          <p>Ovacık Su Bayii (Buzdelen) olarak 1999 yılından beri Gaziosmanpaşa ve Sultangazi bölgelerinde temiz ve güvenilir su hizmeti sunmaktayız. Müşterilerimize en iyi hizmeti verme hedefiyle çalışıyoruz.</p>
-        </div>
-        <div>
-          <h3>Hizmet Bölgelerimiz</h3>
-          <p>Gaziosmanpaşa Karayolları ve Gazi Mahallesi'nde geniş teslimat ağımızla suyunuzu en kısa sürede teslim ediyoruz. Bölgenizdeki güvenilir su tedarikçiniz olmaktan gurur duyuyoruz.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Avantajlarımız</h2>
-      </div>
-      <div class="grid-4">
-        <div class="feature-card">
-          <div class="feature-icon"><i class="fa fa-check"></i></div>
-          <h3>Hijyen Kontrol</h3>
-          <p>Tüm ürünlerimiz sıkı hijyen kontrolleri altında üretilir ve taşınır.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon"><i class="fa fa-truck"></i></div>
-          <h3>Hızlı Teslimat</h3>
-          <p>Zamanında teslimat garantisi ile siparişleriniz kapınıza kadar gelir.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon"><i class="fa fa-headset"></i></div>
-          <h3>7/24 Destek</h3>
-          <p>Her zaman yanınızdayız. Sorularınıza anında yanıt veriyoruz.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon"><i class="fa fa-award"></i></div>
-          <h3>Uygun Fiyat</h3>
-          <p>Bütçenize uygun fiyatlarla kaliteli su hizmeti sunuyoruz. Detaylı bilgi için arayın.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-banner">
-    <div class="container text-center">
-      <h2>Hemen Sipariş Verin</h2>
-      <a href="#" class="btn btn-primary btn-lg">Sipariş Ver</a>
-    </div>
-  </section>
+  </div>
 </main>
 <footer class="footer">
   <div class="container">
